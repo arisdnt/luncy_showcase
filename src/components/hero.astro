@@ -1,13 +1,13 @@
 ---
 import { Picture } from "astro:assets";
-import heroImage from "assets/hero.png";
+import heroImage from "assets/produk_luncy.png";
 import Link from "@components/ui/link.astro";
 import { Icon } from "astro-icon/components";
 ---
 
 <main
-  class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-12 md:pb-24">
-  <div class="py-6 md:order-1 hidden md:block">
+  class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-50 md:pb-24">
+  <div class="py-6 sm:order-3  md:block">
     <Picture
       src={heroImage}
       alt="Astronaut in the air"
@@ -20,33 +20,31 @@ import { Icon } from "astro-icon/components";
   <div>
     <h1
       class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter">
-      Marketing website done with Astro
+      <span class="bg-purple-600 text-yellow-600 py-1 px-1 pb-1">LUNCY</span> <br> <span class="text-4xl">Make Your Parfume</span>
     </h1>
     <p class="text-lg mt-4 text-slate-600 max-w-xl">
-      Astroship is a starter template for startups, marketing websites & landing
-      pages.<wbr /> Built with Astro.build and TailwindCSS. You can quickly
-      create any website with this starter.
+      <span class="bg-yellow-300 font-bol">Varian parfum dengan aroma manis, soft, lembut, dan powdery yang dirancang khusus untuk wanita</span><wbr /> memberikan sentuhan elegan dan feminin sepanjang hari.
     </p>
     <div class="mt-6 flex flex-col sm:flex-row gap-3">
       <Link
         href="#"
-        href="https://web3templates.com/templates/astroship-starter-website-template-for-astro"
+        href="https://id.shp.ee/F2uzipE"
         target="_blank"
-        class="flex gap-1 items-center justify-center"
+        class="flex gap-1 items-center justify-center bg-red-500"
         rel="noopener">
-        <Icon class="text-white w-5 h-5" name="bx:bxs-cloud-download" />
+        <Icon class="text-white w-5 h-5 bg-red" name="bx:bxl-shopify" />
 
-         Download for Free
+         Order On Shoope
       </Link>
       <Link
         size="lg"
         style="outline"
         rel="noopener"
-        href="https://github.com/surjithctly/astroship"
+        href="https://vt.tokopedia.com/t/ZS2HwCEJu/"
         class="flex gap-1 items-center justify-center"
         target="_blank">
-        <Icon class="text-black w-4 h-4" name="bx:bxl-github" />
-         GitHub Repo
+        <Icon class="text-black w-4 h-4" name="bx:bxl-tiktok" />
+         Order On Tiktok
       </Link>
     </div>
   </div>
